@@ -19,9 +19,10 @@ import {MAT_DIALOG_DATA, MatDialogModule, MatDialogRef} from '@angular/material/
 >>>>>>> dd05d4e (feat: basic Angular layout)
 
 describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+    let component: HomeComponent;
+    let fixture: ComponentFixture<HomeComponent>;
 
+<<<<<<< HEAD
   beforeEach(async () => {
     await TestBed.configureTestingModule({
 <<<<<<< HEAD
@@ -56,8 +57,37 @@ describe('HomeComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
+=======
+    beforeEach(async () => {
+        await TestBed.configureTestingModule({
+            declarations: [
+                HomeComponent,
+                HeaderComponent,
+                SideComponent,
+                RecentComponent,
+                FooterComponent,
+            ],
+            imports: [
+                BrowserAnimationsModule,
+                MatIconModule,
+                MatToolbarModule,
+                MatMenuModule,
+                MatDialogModule,
+                HttpClientModule
+            ],
+            providers: [
+                {provide: MatDialogRef, useValue: {}},
+                {provide: MAT_DIALOG_DATA, useValue: []},
+            ]
+        }).compileComponents();
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+        fixture = TestBed.createComponent(HomeComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    });
+>>>>>>> 28b4b93 (feat: added home component)
+
+    it('should create', () => {
+        expect(component).toBeTruthy();
+    });
 });
