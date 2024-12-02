@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 =======
 >>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './side.component.html',
-  styleUrl: './side.component.css'
+  styleUrls: ['./side.component.css']
 })
 export class SideComponent {
 
