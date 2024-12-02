@@ -4,11 +4,6 @@ import { ArticlesService } from '../../services/articles.service';
 
 @Component({
   selector: 'app-create-post',
-<<<<<<< HEAD
-  standalone: true,
-  imports: [],
-=======
->>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './create-post.component.html',
   styleUrls: ['./create-post.component.css']
 })

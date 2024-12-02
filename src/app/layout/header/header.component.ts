@@ -5,11 +5,6 @@ import { LoginComponent } from '../login/login.component';
 
 @Component({
   selector: 'app-header',
-<<<<<<< HEAD
-  standalone: true,
-  imports: [],
-=======
->>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })

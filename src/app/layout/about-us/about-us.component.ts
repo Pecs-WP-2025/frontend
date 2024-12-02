@@ -10,11 +10,6 @@ interface Developer {
 
 @Component({
   selector: 'app-about-us',
-<<<<<<< HEAD
-  standalone: true,
-  imports: [],
-=======
->>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.css']
 })

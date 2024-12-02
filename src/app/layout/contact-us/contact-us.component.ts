@@ -3,11 +3,6 @@ import emailjs from 'emailjs-com';
 
 @Component({
   selector: 'app-contact-us',
-<<<<<<< HEAD
-  standalone: true,
-  imports: [],
-=======
->>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.css']
 })

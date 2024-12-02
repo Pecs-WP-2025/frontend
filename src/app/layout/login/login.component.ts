@@ -6,11 +6,6 @@ import { MatDialogRef} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-login',
-<<<<<<< HEAD
-  standalone: true,
-  imports: [],
-=======
->>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })

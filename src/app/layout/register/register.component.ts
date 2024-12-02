@@ -6,11 +6,6 @@ import { MatDialogRef} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-register',
-<<<<<<< HEAD
-  standalone: true,
-  imports: [],
-=======
->>>>>>> dd05d4e (feat: basic Angular layout)
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
